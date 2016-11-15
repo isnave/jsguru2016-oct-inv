@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61954857-1250-416f-b05c-b0cb1d1bf7cd" name="Default" comment="Symbol">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/iterators.js" />
+    <list default="true" id="61954857-1250-416f-b05c-b0cb1d1bf7cd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/symbolsesnext.js" afterPath="$PROJECT_DIR$/js/symbolsesnext.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/iterators.js" afterPath="$PROJECT_DIR$/js/iterators.js" />
     </list>
     <ignored path="jsguru2016-oct.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,8 +53,8 @@
       <file leaf-file-name="iterators.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/iterators.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="119">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -287,7 +284,7 @@
       <workItem from="1478797803153" duration="7913000" />
       <workItem from="1479207919318" duration="89000" />
       <workItem from="1479208569375" duration="4528000" />
-      <workItem from="1479228767367" duration="3592000" />
+      <workItem from="1479228767367" duration="4732000" />
     </task>
     <task id="LOCAL-00001" summary="promise">
       <created>1478799128134</created>
@@ -324,11 +321,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479230408742</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="iterators">
+      <created>1479232475690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1479232475690</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23514000" />
+    <option name="totallyTimeSpent" value="24654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -393,7 +397,8 @@
     <MESSAGE value="promise" />
     <MESSAGE value="promise,promiseES6,spreadOperator" />
     <MESSAGE value="Symbol" />
-    <option name="LAST_COMMIT_MESSAGE" value="Symbol" />
+    <MESSAGE value="iterators" />
+    <option name="LAST_COMMIT_MESSAGE" value="iterators" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -623,8 +628,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/iterators.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="119">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding />
         </state>
       </provider>

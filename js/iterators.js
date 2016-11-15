@@ -2,12 +2,16 @@
 
 var obj = {
     names: ["israel", "pepe", "manolo"],
-    index: -1,
     get[Symbol.iterator]() {
-        next: ()=> {
-            this.index++;
-            var result = this.names[index];
-            return this.index < this.names.length ? {done: true} : {value: result, done: false};
+        return function () {
+            var index = -1;
+            return {
+                next: ()=> {
+                    index++;
+                    var result = this.names[index];
+                    return index > this.names.length ? {done: true} : {value: result, done: false};
+                }
+            }
         }
     }
 };
@@ -33,7 +37,3 @@ var it = makeIterator( ['yo', 'ya'] );
 console.log( it.next().value ); // 'yo'
 console.log( it.next().value ); // 'ya'
 console.log( it.next().done );  // true
-var it2 = makeIterator( ['yo', 'ya'] );
-for (let name of it2) {
-    console.log( name );
-}
