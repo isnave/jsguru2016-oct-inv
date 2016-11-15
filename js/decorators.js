@@ -1,9 +1,13 @@
-function myDecorator(name) {
+// instalr este paquede de babel
+// si no no funciona
+// npm install babel-plugin-transform-decorators-legacy --save-dev
+/*function myDecorator(name) {
     return function (target) {
         target.customDecorator = {name};
     }
 }
 @myDecorator( "myDecorador" )
+ */
 class A {
     init() {
         alert( "Iniciado" );
