@@ -9,7 +9,7 @@
 //import "./esNextModules2"
 // import "./promisePatternImplementation"
 // import "./promiseSample"
-import "./generators"
+import "./decorators"
 
 if (false) {
   for (let i = 0; i < 2; i++) {

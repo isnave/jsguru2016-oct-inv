@@ -26,6 +26,6 @@ C.prototype = Object.create(A.prototype);
 //definir
 var obj = {};
 Object.defineProperty(obj, "x", {
-        get: () => "hey";
+    get: () => "hey"
     }
 );
