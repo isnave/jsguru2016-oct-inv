@@ -1,6 +1,6 @@
 var persons = ["1", "2", "3", "4", "5", "6", "7", "8"]
 
-//datrue si hay coincidencia
+//da true si hay coincidencia
 var lstPerson = persons.some(name => name > 2);
 console.log(lstPerson);
 var personsNameMy = ["lolo", "pepe", "fernando", "lolo2"];
@@ -31,3 +31,22 @@ console.log(personsNameMy.splice(0, 1));
 
 // si todos cumplen da true;
 var every = personsNameMy.every(name => name.indexOf("f") > -1);
+
+var lis = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+Array.from(lis).forEach(function (li) {
+    console.log(li);
+});
+
+var spans = [{textContent: "hola"}, {textContent: "hola1"}, {textContent: "hola2"}, {textContent: "hola3"}];
+let names2 = Array.from(spans, s => s.textContent);
+Array.from(names2).forEach(function (re) {
+    console.log(re);
+});
+
+Array.from(['a', 'b'].keys());
+//   [ 0, 1 ]
+//Array.from([ 'a', 'b' ].values());
+//   [ 'a', 'b' ]
+Array.from(['a', 'b'].entries());
+//    [ [ 0, 'a' ],
+//    [ 1, 'b' ] ]
