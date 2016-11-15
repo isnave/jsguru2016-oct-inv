@@ -1,4 +1,4 @@
-// uso uno semiocultacion
+// uso uno semi-ocultacion
 // es un tipo primitivo inmutable
 
 var symbol1 = Symbol("hola");

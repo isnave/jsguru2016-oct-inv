@@ -2,14 +2,14 @@
 //import "./oop"
 //import "./polimorfismo"
 //import "./callApplyBind"
-import "./arrayfunctions"
+//import "./arrayfunctions"
 //import "./classes"
 //import "./ejercicios03-11-2016"
 // import "./esNextModules"
 //import "./esNextModules2"
 // import "./promisePatternImplementation"
 // import "./promiseSample"
-//import "./symbolsesnext"
+import "./symbolsesnext"
 
 if (false) {
   for (let i = 0; i < 2; i++) {
