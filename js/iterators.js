@@ -9,7 +9,7 @@ var obj = {
                 next: ()=> {
                     index++;
                     var result = this.names[index];
-                    return index > this.names.length ? {done: true} : {value: result, done: false};
+                    return index >= this.names.length ? {done: true} : {value: result, done: false};
                 }
             }
         }

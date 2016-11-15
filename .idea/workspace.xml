@@ -53,8 +53,8 @@
       <file leaf-file-name="iterators.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/iterators.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="187">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -284,7 +284,7 @@
       <workItem from="1478797803153" duration="7913000" />
       <workItem from="1479207919318" duration="89000" />
       <workItem from="1479208569375" duration="4528000" />
-      <workItem from="1479228767367" duration="4732000" />
+      <workItem from="1479228767367" duration="4956000" />
     </task>
     <task id="LOCAL-00001" summary="promise">
       <created>1478799128134</created>
@@ -328,11 +328,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479232475690</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="iterators">
+      <created>1479233619762</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1479233619762</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24654000" />
+    <option name="totallyTimeSpent" value="24878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -628,8 +635,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/iterators.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        <state relative-caret-position="187">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding />
         </state>
       </provider>
