@@ -6,8 +6,29 @@ function myDecorator(name) {
         target.customDecorator = {name};
     }
 }
+
+function log(ctor) {
+    ctor.loggable = true;
+}
+
+function inmutable(param) {
+    return function (target, name, descriptor) {
+        descriptor.configurable = false;
+        Object.defineProperties( target, name, descriptor );
+    }
+}
+
 @myDecorator( "myDecorador" )
+@log()
 class A {
+    constructor() {
+    }
+
+    @inmutable
+    get name() {
+        return "Israel"
+    }
+
     init() {
         alert( "Iniciado" );
     }
