@@ -41,11 +41,9 @@
       <file leaf-file-name="decorators.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/decorators.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -299,7 +297,7 @@
       <workItem from="1478797803153" duration="7913000" />
       <workItem from="1479207919318" duration="89000" />
       <workItem from="1479208569375" duration="4528000" />
-      <workItem from="1479228767367" duration="10083000" />
+      <workItem from="1479228767367" duration="10157000" />
     </task>
     <task id="LOCAL-00001" summary="promise">
       <created>1478799128134</created>
@@ -385,11 +383,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479238788720</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="decorators">
+      <created>1479239006940</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1479239006940</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30005000" />
+    <option name="totallyTimeSpent" value="30079000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,7 +470,8 @@
     <MESSAGE value="Symbol" />
     <MESSAGE value="iterators" />
     <MESSAGE value="iterators and generators" />
-    <option name="LAST_COMMIT_MESSAGE" value="iterators and generators" />
+    <MESSAGE value="decorators" />
+    <option name="LAST_COMMIT_MESSAGE" value="decorators" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -744,11 +750,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/decorators.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
