@@ -49,7 +49,23 @@ for (var res of _.flatten( ["1", "2"], ["3", "4"], ["5", "6", "7"] )) {
     console.log( res );
 }
 var names = ["israel", "pepe", "manolo"];
+// hasta que no se itera no se ejecuta la iteracion
 var hasM = _.where( names, name=>name.includes( "i" ) );
 for (var r of hasM) {
     console.log( r );
 }
+
+function* idMaker() {
+    var index = 0;
+    while (true)
+        yield index++;
+}
+
+// lo anterior seria igual a lo siguiente
+// que es lo que ejecuta
+// internamente se llama al next
+var gen = idMaker();
+
+console.log( gen.next().value ); // 0
+console.log( gen.next().value ); // 1
+console.log( gen.next().value ); // 2
