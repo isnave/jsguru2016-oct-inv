@@ -9,7 +9,7 @@
 //import "./esNextModules2"
 // import "./promisePatternImplementation"
 // import "./promiseSample"
-import "./decorators"
+import "./ejercicios17-11-2016"
 
 if (false) {
   for (let i = 0; i < 2; i++) {
