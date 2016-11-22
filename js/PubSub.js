@@ -1,4 +1,4 @@
-export default class PubSub {
+export class PubSub {
     constructor() {
         this.listeners = {};
     }
@@ -22,11 +22,18 @@ export default class PubSub {
     }
 }
 
-var pubSub = new PubSub();
-
-var listener = (channel, message) => {
-    console.log( "canal" + channel + " - " + message.text );
+export var symbols = {
+    pubsup: Symbol( "pubsub" )
 };
+
+if (false) {
+
+
+    var pubSub = new PubSub();
+
+    var listener = (channel, message) => {
+        console.log( "canal" + channel + " - " + message.text );
+    };
 
 pubSub.subscribe( "app.register", listener );
 pubSub.publish( "app.register", {
@@ -40,3 +47,4 @@ pubSub.subscribe( "app.users.register", listener );
 pubSub.publish( "app.users.register", {
     text: "hola desde pubsub"
 } );
+}

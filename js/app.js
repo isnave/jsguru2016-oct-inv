@@ -10,8 +10,9 @@
 // import "./promisePatternImplementation"
 // import "./promiseSample"
 // import "./PubSub"
-import "./storage"
-import "./workers"
+// import "./storage"
+// import "./workers"
+import "./objectproxies"
 
 
 if (false) {
