@@ -1,15 +1,17 @@
-//orientacion a objetos mirar en el fichero
-//import "./oop"
-//import "./polimorfismo"
-//import "./callApplyBind"
-//import "./arrayfunctions"
-//import "./classes"
-//import "./ejercicios03-11-2016"
+// orientacion a objetos mirar en el fichero
+// import "./oop"
+// import "./polimorfismo"
+// import "./callApplyBind"
+// import "./arrayfunctions"
+// import "./classes"
+// import "./ejercicios03-11-2016"
 // import "./esNextModules"
-//import "./esNextModules2"
+// import "./esNextModules2"
 // import "./promisePatternImplementation"
 // import "./promiseSample"
-import "./ejercicios17-11-2016"
+// import "./PubSub"
+import "./workers"
+
 
 if (false) {
   for (let i = 0; i < 2; i++) {
