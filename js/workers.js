@@ -30,3 +30,7 @@ worker2.postMessage( "hola holita" );
 worker2.addEventListener( "message", e=> {
     console.log( e.data );
 } );
+
+//para imprtar ficheros
+//importScripts("worker1.js");
+//console.log(res());
