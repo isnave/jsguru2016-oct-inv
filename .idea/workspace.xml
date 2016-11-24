@@ -48,8 +48,8 @@
       <file leaf-file-name="gruntfile.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+            <state relative-caret-position="48">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -370,7 +370,7 @@
       <workItem from="1479402237114" duration="4765000" />
       <workItem from="1479408218877" duration="59000" />
       <workItem from="1479834270141" duration="9560000" />
-      <workItem from="1480007214491" duration="8861000" />
+      <workItem from="1480007214491" duration="8971000" />
     </task>
     <task id="LOCAL-00001" summary="promise">
       <created>1478799128134</created>
@@ -568,11 +568,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480016314409</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="grunt phantomjs">
+      <created>1480016460352</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1480016460352</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53826000" />
+    <option name="totallyTimeSpent" value="53936000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1078,8 +1085,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        <state relative-caret-position="48">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
           <folding />
         </state>
       </provider>
