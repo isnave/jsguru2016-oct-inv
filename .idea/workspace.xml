@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61954857-1250-416f-b05c-b0cb1d1bf7cd" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/PhantomJs.js" afterPath="$PROJECT_DIR$/js/PhantomJs_mio.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gruntfile.js" afterPath="$PROJECT_DIR$/gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/destructuring.js" afterPath="$PROJECT_DIR$/js/destructuring.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/styles.less" afterPath="$PROJECT_DIR$/less/styles.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="jsguru2016-oct.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -376,7 +370,7 @@
       <workItem from="1479402237114" duration="4765000" />
       <workItem from="1479408218877" duration="59000" />
       <workItem from="1479834270141" duration="9560000" />
-      <workItem from="1480007214491" duration="8568000" />
+      <workItem from="1480007214491" duration="8644000" />
     </task>
     <task id="LOCAL-00001" summary="promise">
       <created>1478799128134</created>
@@ -553,11 +547,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480011101549</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="grunt phantomjs">
+      <created>1480016179814</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1480016179814</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53533000" />
+    <option name="totallyTimeSpent" value="53609000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -640,7 +641,8 @@
     <MESSAGE value="ObservableObject" />
     <MESSAGE value="Desectructurar" />
     <MESSAGE value="grunt" />
-    <option name="LAST_COMMIT_MESSAGE" value="grunt" />
+    <MESSAGE value="grunt phantomjs" />
+    <option name="LAST_COMMIT_MESSAGE" value="grunt phantomjs" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
