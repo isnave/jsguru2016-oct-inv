@@ -370,7 +370,7 @@
       <workItem from="1479402237114" duration="4765000" />
       <workItem from="1479408218877" duration="59000" />
       <workItem from="1479834270141" duration="9560000" />
-      <workItem from="1480007214491" duration="8644000" />
+      <workItem from="1480007214491" duration="8714000" />
     </task>
     <task id="LOCAL-00001" summary="promise">
       <created>1478799128134</created>
@@ -554,11 +554,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480016179814</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="grunt phantomjs">
+      <created>1480016244335</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1480016244335</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53609000" />
+    <option name="totallyTimeSpent" value="53679000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
