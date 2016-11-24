@@ -12,41 +12,43 @@
 // import "./PubSub"
 // import "./storage"
 // import "./workers"
-import "./objectproxies"
-
+// import "./objectproxies"
+import "./destructuring";
 
 if (false) {
-  for (let i = 0; i < 2; i++) {
-      console.log(i);
-  }
+    for (let i = 0; i < 2; i++) {
+        console.log( i );
+    }
 
-  if (true) {
-      let x = 1;
-  }
+    if (true) {
+        let x = 1;
+    }
 
-  //console.log(x); petaria por que el ambito esta dentrodel if
-  var arrowfunction = (text, text2) => {
-      console.log(text);
-      console.log(text2);
-      console.log(`Esto son interpolaciones:\r\n -${text} ${text2}`);
-  }
+    //console.log(x); petaria por que el ambito esta dentrodel if
+    var arrowfunction = (text, text2) => {
+        console.log( text );
+        console.log( text2 );
+        console.log( `Esto son interpolaciones:\r\n -${text} ${text2}` );
+    }
 
-  arrowfunction("arrow function", "texto 2");
+    arrowfunction( "arrow function", "texto 2" );
 
-  // llamadas recursivas
-  var recursiva = 3;
+    // llamadas recursivas
+    var recursiva = 3;
 
-  function recursivaf() {
-      if (recursiva > 0) {
-          recursiva = recursiva - 1;
-          console.log("Recursiva : " + recursiva);
-          recursivaf();
-      }
-  }
-  recursivaf();
+    function recursivaf() {
+        if (recursiva > 0) {
+            recursiva = recursiva - 1;
+            console.log( "Recursiva : " + recursiva );
+            recursivaf();
+        }
+    }
 
-  function doStuff() {}
+    recursivaf();
 
-  doStuff.x = 10;
-  console.log("Las funciones son objetos : doStuff.x = " + doStuff.x);
+    function doStuff() {
+    }
+
+    doStuff.x = 10;
+    console.log( "Las funciones son objetos : doStuff.x = " + doStuff.x );
 }
