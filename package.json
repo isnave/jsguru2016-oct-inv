@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "grunt": "grunt-cli"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
     "grunt": "^1.0.1",
     "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-jshint": "^1.0.0",
+    "grunt-phantom": "^0.2.1",
     "install": "^0.8.2"
   },
   "dependencies": {},

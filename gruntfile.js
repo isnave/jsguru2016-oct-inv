@@ -23,6 +23,17 @@ module.exports = function (grunt) {
         watch: {
             files: ['./less**/*.less'],
             tasks: ['less'],
+        },
+        phantom: {
+            options: {
+                port: 4444
+            },
+            your_target: {},
+            another_target: {
+                options: {
+                    port: 5555
+                }
+            }
         }
     } );
 
@@ -32,6 +43,8 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks( 'grunt-contrib-watch' );
 
-    grunt.registerTask( "default", ["less", "connect"] );
+    grunt.loadNpmTasks( 'grunt-phantom' );
+
+    grunt.registerTask( "default", ["less", "connect", "phantom"] );
 
 };

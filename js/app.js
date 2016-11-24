@@ -13,8 +13,8 @@
 // import "./storage"
 // import "./workers"
 // import "./objectproxies"
-// import "./destructuring";
-import "./PhantomJs"
+import "./destructuring";
+import "./PhantomJs_mio"
 
 if (false) {
     for (let i = 0; i < 2; i++) {
